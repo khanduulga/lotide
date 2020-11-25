@@ -1,4 +1,4 @@
-// FUNCTION IMPLEMENTATION
+// ASSERTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`🎉️🎉️🎉️ Assertion Passed: ${actual} === ${expected}`);
@@ -14,10 +14,10 @@ const countOnly = function(allItems, itemsToCount) {
   const results = {}
   const countOnlyList = Object.keys(itemsToCount);
 
-  for (let i = 0; i < countOnlyList.length; i++) {
-    if (itemsToCount[countOnlyList[i]]) {
+  for (let i = 0; i < countOnlyList.length; i++) { // this can be taken out
+    if (itemsToCount[countOnlyList[i]]) { //this as well
       for (const item of allItems) {
-        if (countOnlyList[i] === item) {
+        if (countOnlyList[i] === item) { // this if can be taken out
           //CAN MAKE THIS VERY SHORT BY WRAPPING WHATS UNDER HERE WITH ONE IF STATEMENT IF (itemsToCount[item])
           if (results[item]) {
             results[item] += 1;
