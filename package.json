@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@khanduulga/lotide",
   "version": "1.0.0",
-  "description": "personal version of lodash",
+  "description": "personal version of lodash for learning purposes at Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -18,7 +18,7 @@
     "lodash",
     "lhl"
   ],
-  "author": "",
+  "author": "khanduulga",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/khanduulga/lotide/issues"
